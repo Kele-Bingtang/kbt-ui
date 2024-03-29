@@ -1,4 +1,3 @@
-addIcon
 <template>
   <k-tabs
     v-model="editableTabsValue"

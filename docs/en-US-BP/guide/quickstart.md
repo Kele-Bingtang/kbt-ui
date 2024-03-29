@@ -228,4 +228,4 @@ We can also use [Nuxt.js](https://v3.nuxtjs.org/)：
 ## Let's Get Started
 
 You can bootstrap your project from now on. For each components usage, please
-refer to [the individual component documentation](https://kbt-ui.org/zh-CN/component/button.html).
+refer to [the individual component documentation](https://kbt-ui.youngkbt.cn/zh-CN/component/button.html).

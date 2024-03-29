@@ -25,6 +25,7 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.md,.json --max-warnings 0 --cache",
     "lint:fix": "pnpm run lint --fix",
     "lint:commit": "commitlint --from $(git merge-base origin/dev HEAD) --to HEAD > ./commit-lint.txt",
+    "lint:lint-staged": "lint-staged -c ./.husky/lintstagedrc.js",
     "typecheck": "run-p typecheck:web typecheck:play typecheck:node typecheck:vite-config typecheck:vitest",
     "typecheck:web": "vue-tsc -p tsconfig.web.json --composite false --noEmit",
     "typecheck:node": "tsc -p tsconfig.node.json --noEmit",
@@ -38,6 +39,7 @@
     "docs:crowdin-credentials": "pnpm run -C docs crowdin-credentials",
     "stub": "pnpm run -r --parallel stub",
     "prepare": "husky",
+    "commit": "git add . && git-cz && git push",
     "postinstall": "pnpm stub && concurrently \"pnpm gen:version\" \"pnpm run -C internal/metadata dev\""
   },
   "peerDependencies": {
@@ -116,6 +118,7 @@
     "vitest": "0.12.6",
     "vue": "~3.2.47",
     "vue-router": "^4.0.16",
+    "commitizen": "^4.3.0",
     "vue-tsc": "^0.38.2"
   },
   "engines": {

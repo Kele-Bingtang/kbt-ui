@@ -2,7 +2,7 @@
   <k-watermark
     :width="130"
     :height="30"
-    image="https://kbt-ui.org/images/kbt-ui-logo.png"
+    image="https://kbt-ui.youngkbt.cn/images/kbt-ui-logo.png"
   >
     <div style="height: 500px" />
   </k-watermark>

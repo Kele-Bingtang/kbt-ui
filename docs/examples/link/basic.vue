@@ -1,6 +1,6 @@
 <template>
   <div>
-    <k-link href="https://kbt-ui.org" target="_blank">default</k-link>
+    <k-link href="https://kbt-ui.youngkbt.cn" target="_blank">default</k-link>
     <k-link type="primary">primary</k-link>
     <k-link type="success">success</k-link>
     <k-link type="warning">warning</k-link>

@@ -13,7 +13,7 @@
     <k-tour-step :target="ref1?.$el" title="Upload File">
       <img
         style="width: 240px"
-        src="https://kbt-ui.org/images/kbt-ui-logo.png"
+        src="https://kbt-ui.youngkbt.cn/images/kbt-ui-logo.png"
         alt="tour.png"
       />
       <div>Put you files here.</div>

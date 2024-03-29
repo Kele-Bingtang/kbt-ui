@@ -35,8 +35,6 @@ declare module '@vue/runtime-core' {
     IRiFlaskLine: typeof import('~icons/ri/flask-line')['default']
     IRiGithubLine: typeof import('~icons/ri/github-line')['default']
     IRiTranslate2: typeof import('~icons/ri/translate2')['default']
-    KbtUILogo: typeof import('./.vitepress/vitepress/components/icons/kbt-ui-logo.vue')['default']
-    KbtUITextLogo: typeof import('./.vitepress/vitepress/components/icons/kbt-ui-text-logo.vue')['default']
     L1Categories: typeof import('./.vitepress/vitepress/components/nav/l1-categories.vue')['default']
     L2Categories: typeof import('./.vitepress/vitepress/components/nav/l2-categories.vue')['default']
     L3Categories: typeof import('./.vitepress/vitepress/components/nav/l3-categories.vue')['default']

@@ -27,11 +27,11 @@ import type { UploadProps, UploadUserFile } from 'kbt-ui'
 const fileList = ref<UploadUserFile[]>([
   {
     name: 'kbt-ui-logo.png',
-    url: 'https://kbt-ui.org/images/kbt-ui-logo.png',
+    url: 'https://kbt-ui.youngkbt.cn/images/kbt-ui-logo.png',
   },
   {
     name: 'kbt-ui-logo2.svg',
-    url: 'https://kbt-ui.org/images/kbt-ui-logo.png',
+    url: 'https://kbt-ui.youngkbt.cn/images/kbt-ui-logo.png',
   },
 ])
 

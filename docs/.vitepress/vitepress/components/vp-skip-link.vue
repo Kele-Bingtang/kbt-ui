@@ -50,12 +50,12 @@ const focusOnTargetAnchor = ({ target }: Event) => {
   left: 12px;
   padding: 6px 12px;
   z-index: 999;
-  font-size: var(--k-font-size-base);
+  font-size: var(--el-font-size-base);
   font-weight: bold;
   text-decoration: none;
   color: var(--text-color);
   background-color: var(--bg-color);
-  border-radius: var(--k-border-radius-base);
+  border-radius: var(--el-border-radius-base);
 
   &:focus {
     height: auto;
