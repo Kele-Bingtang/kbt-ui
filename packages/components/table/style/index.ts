@@ -1,0 +1,5 @@
+import '@kbt-ui/components/base/style'
+import '@kbt-ui/theme-chalk/src/table.scss'
+import '@kbt-ui/components/checkbox/style'
+import '@kbt-ui/components/tooltip/style'
+import '@kbt-ui/components/scrollbar/style'

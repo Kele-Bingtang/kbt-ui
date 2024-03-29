@@ -1,0 +1,6 @@
+import '@kbt-ui/components/base/style'
+import '@kbt-ui/components/input/style'
+import '@kbt-ui/components/button/style'
+import '@kbt-ui/components/checkbox/style'
+import '@kbt-ui/components/checkbox-group/style'
+import '@kbt-ui/theme-chalk/src/transfer.scss'

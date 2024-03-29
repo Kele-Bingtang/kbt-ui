@@ -1,0 +1,6 @@
+import '@kbt-ui/components/base/style/css'
+import '@kbt-ui/theme-chalk/k-container.css'
+import '@kbt-ui/theme-chalk/k-aside.css'
+import '@kbt-ui/theme-chalk/k-footer.css'
+import '@kbt-ui/theme-chalk/k-header.css'
+import '@kbt-ui/theme-chalk/k-main.css'

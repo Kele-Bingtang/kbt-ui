@@ -1,0 +1,45 @@
+// Vitest Snapshot v1
+
+exports[`Anchor.vue > snapshot 1`] = `
+"<div class=\\"k-anchor k-anchor--vertical\\">
+  <div class=\\"k-anchor__marker\\"></div>
+  <div class=\\"k-anchor__list\\">
+    <div class=\\"k-anchor__item\\"><a class=\\"k-anchor__link\\" href=\\"#anchor-link-0\\">#anchor-link-0</a>
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`Anchor.vue > snapshot 2`] = `
+"<div class=\\"k-anchor k-anchor--horizontal\\">
+  <div class=\\"k-anchor__marker\\"></div>
+  <div class=\\"k-anchor__list\\">
+    <div class=\\"k-anchor__item\\"><a class=\\"k-anchor__link\\" href=\\"#anchor-link-0\\">#anchor-link-0</a>
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`Anchor.vue > snapshot 3`] = `
+"<div class=\\"k-anchor k-anchor--underline k-anchor--vertical\\">
+  <div class=\\"k-anchor__marker\\"></div>
+  <div class=\\"k-anchor__list\\">
+    <div class=\\"k-anchor__item\\"><a class=\\"k-anchor__link\\" href=\\"#anchor-link-0\\">#anchor-link-0</a>
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`Anchor.vue > snapshot 4`] = `
+"<div class=\\"k-anchor k-anchor--underline k-anchor--horizontal\\">
+  <div class=\\"k-anchor__marker\\"></div>
+  <div class=\\"k-anchor__list\\">
+    <div class=\\"k-anchor__item\\"><a class=\\"k-anchor__link\\" href=\\"#anchor-link-0\\">#anchor-link-0</a>
+      <!--v-if-->
+    </div>
+  </div>
+</div>"
+`;

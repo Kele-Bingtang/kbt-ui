@@ -1,0 +1,31 @@
+.common-layout {
+  .k-header,
+  .k-footer,
+  .k-main,
+  .k-aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .k-header,
+  .k-footer {
+    background-color: var(--k-color-primary-light-7);
+    color: var(--k-text-color-primary);
+    text-align: center;
+  }
+
+  .k-aside {
+    background-color: var(--k-color-primary-light-8);
+    color: var(--k-text-color-primary);
+    text-align: center;
+  }
+
+  .k-main {
+    background-color: var(--k-color-primary-light-9);
+    color: var(--k-text-color-primary);
+    text-align: center;
+
+    height: 150px;
+  }
+}
